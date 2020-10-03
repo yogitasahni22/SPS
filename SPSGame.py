@@ -101,7 +101,7 @@ def logic():
     btn4.place(x=250,y=250)
     canvas1 = tk.Canvas(window, width = 1000, height = 190)
     canvas1.place(x=170,y=50)
-    img1 = tk.PhotoImage(file=r"C:\Users\win 10\Downloads\stonepaperscissor1.png")
+    img1 = tk.PhotoImage(file=r"stonepaperscissor1.png")
     canvas1.create_image(0,0,anchor ="nw",image=img1)
 
 
